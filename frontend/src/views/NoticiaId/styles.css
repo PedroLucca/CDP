@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+
+.container-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.container-id .noticia-id{
+    width: 60%;
+}
+
+.noticia-id h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font: 400 25px Roboto, sans-serif;
+    color: rgb(30, 44, 44);
+}
+
+
+.noticia-id h2{
+    font: 400 40px Lora, serif;
+}
+
+.noticia-id p{
+    text-align: justify;
+    text-justify: newspaper;
+    font: 20px Roboto, sans-serif;
+    margin-bottom: 80px;
+}

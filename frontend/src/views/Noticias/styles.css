@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+.container-noticias{
+    width: 100%;
+    
+    display: inline-block;
+}
+.container-geral .titulo{
+    height: 70px;
+    padding-top: 5px;
+}
+.container-geral .titulo h1{
+    margin-left: 100px;
+    font: 400 50px  Roboto; 
+}
+
+ .noticia-total{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+   
+}
+
+.container-noticias .noticia-total > .noticia:nth-child(1){
+    margin-left: 380px;
+    
+    margin-top: 50px;
+    width: 50%;
+    height: 200px;
+    grid-column: 1/3;
+    grid-row: 1;
+    display: block;
+    text-align: center;
+    
+}
+
+.container-noticias .noticia-total > .noticia:nth-child(1) h2{
+    display: inline-block;
+    font: 400 50px  Roboto; 
+    color: black; 
+    margin-bottom: 20px;
+}
+
+.container-noticias .noticia-total > .noticia:nth-child(1) h3{
+    display: inline-block;
+    font: 400 30px  Roboto; 
+    color: black;
+    
+}
+
+.container-noticias .noticia-total > .noticia:nth-child(2), .noticia:nth-child(3) {
+    margin: 90px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.container-noticias .noticia-total > .noticia:nth-child(2) h2{
+    display: inline-block;
+    font: 400  40px Roboto; 
+    color: black;
+    margin-bottom: 10px;
+}
+.container-noticias .noticia-total > .noticia:nth-child(3) h2{
+    display: inline-block;
+    font: 400 40px Roboto; 
+    color: black;
+    margin-bottom: 10px;
+}
+
+.container-noticias .noticia-total > .noticia:nth-child(2) h3{
+    font: 400 20px Roboto, sans-serif; 
+    font-weight: normal;
+}
+
+.container-noticias .noticia-total > .noticia:nth-child(3) h3{
+    font: 400 20px Roboto, sans-serif; 
+    font-weight: normal;
+}
+
+.container-noticias .noticia-total > .noticia:nth-child(n + 4){
+    margin-bottom: 20px;
+    margin-left: 50px;
+    grid-column: 1/3;
+    align-items: left;
+    width: 50%;
+    
+ }
+ .container-noticias .noticia-total > .noticia:nth-child(n + 4) h2{
+    display: inline-block;
+    font: 400  20px Roboto; 
+    font-weight: bolder;
+    color: black;
+ }
+ .container-noticias .noticia-total > .noticia:nth-child(n + 4) h3{
+    font: 400 15px Roboto;
+    color: #000
+    
+}
+.arrow{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    
+    
+}

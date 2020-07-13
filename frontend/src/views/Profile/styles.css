@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+.profile h2{
+    text-align: center;
+    font: bold 25px Roboto, sans-serif;
+}
+
+.profile{
+    background-color: beige;
+    border-radius: 10px;
+    margin: 0px 80px 20px 80px;
+}
+.profile-geral h1{
+    font: bold 35px Roboto, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 320px;
+}
+
+.doar form{
+    border-radius: 10px;
+    font: bold 30px Roboto, sans-serif;
+    margin: 60px 120px 120px 120px;
+    background-color: rgba(216, 23, 23, 0.486);
+    display: grid;
+}
+
+.doar form input{
+   font-size: 20px;
+   margin: 10px 20px 10px 20px;
+}
+
+.doar form .button-doar{
+    border-radius: 10px;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    margin: 10px 20px 10px 20px;
+ }
+
+.doar form h2{
+    margin-bottom: 20px;
+}
+
+.doacoes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.doacao-img{
+    margin-top: 40px;
+    display: flex;
+}
+.doacao-img .icon{
+    color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.doacao-img .img-icon{
+    margin-bottom: 200px;
+    margin-top: 200px;
+    display: grid;
+    margin-left: 150px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(65, 105, 225, 0.507);
+    border-radius: 100px;
+}
+
+.doacao-img .img-icon .logout{
+    font: 20px Roboto, sans-serif;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.doacoes .doacao{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    border: solid;
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 0px;
+
+}
+
+.doacoes .doacao h2{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.doacoes .doacao p{
+    font: 400 15px Roboto, sans-serif;
+    margin-left: 20px;
+
+}
+.doacoes .doacao b{
+    font: 400 20px Roboto, sans-serif;
+    margin-left: 40px;
+    margin-bottom: 10px;
+
+}
+
+    
